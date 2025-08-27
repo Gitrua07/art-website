@@ -33,3 +33,8 @@ main{
     border-radius: 100%;
     height: 30px;
 }
+
+.logo img{
+    height: 150px;
+    border-radius: 20%;
+}
