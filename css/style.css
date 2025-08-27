@@ -1,0 +1,35 @@
+html, body{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    font-family: "Helvetica Neue", Helvetica, Arial, Helvetica, sans-serif;
+}
+
+main{
+    flex: 1;
+}
+
+.menu{
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    padding-top: 20px;
+}
+
+.menu a{
+    text-decoration: none;
+    color: black;
+}
+
+.active{
+    text-decoration: underline;
+}
+
+.menu-footer img{
+    border-radius: 100%;
+    height: 30px;
+}
