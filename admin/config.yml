@@ -1,0 +1,19 @@
+backend:
+  name: github
+  repo: Gitrua07/art-website   # replace with your GitHub username and repo
+  branch: main                    # branch to commit to
+  auth_type: implicit             # uses GitHub login
+
+media_folder: "images"           # folder in repo for uploaded images
+public_folder: "/images"
+
+collections:
+  - name: "artworks"
+    label: "Artworks"
+    folder: "artworks"           # folder in repo for artwork metadata
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Image", name: "image", widget: "image"}
+      - {label: "Description", name: "description", widget: "text"}
