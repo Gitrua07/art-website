@@ -17,3 +17,11 @@ collections:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Image", name: "image", widget: "image"}
       - {label: "Description", name: "description", widget: "text"}
+  - name: "pages"
+    label: "Pages"
+    files:
+      - label: "About Me"
+        name: "about"
+        file: "content/about.md"
+        fields:
+          - {label: "About Me", name: "about me", widget: "text"}
