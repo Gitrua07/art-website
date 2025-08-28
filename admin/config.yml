@@ -10,8 +10,6 @@ public_folder: "/images"
 collections:
   - name: "artworks"
     label: "Artworks"
-    folder: "artworks"           # folder in repo for artwork metadata
-    create: true
     slug: "{{slug}}"
     file: "artworks/artworks.json"
     format: json
