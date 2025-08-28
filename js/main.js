@@ -1,4 +1,4 @@
-fetch('artworks/index.json')
+fetch('list/index.json')
 .then(res => res.json())
 .then(files => {
     files.forEach(file =>{
