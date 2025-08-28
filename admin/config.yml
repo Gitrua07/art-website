@@ -13,6 +13,7 @@ collections:
     folder: "artworks"           # folder in repo for artwork metadata
     create: true
     slug: "{{slug}}"
+    file: "artworks/artworks.json"
     format: json
     fields:
       - {label: "Title", name: "title", widget: "string"}
