@@ -16,15 +16,3 @@ fetch('list/index.json')
                 });
         });
     });
-
-fetch('content/about.json')
-    .then(res => res.json())
-    .then(data => {
-       const about = document.getElementById('about-me');
-       const text = document.createElement('div');
-       text.className = 'desc';
-       const txt = document.createElement('p');
-       txt.textContent = data.description;
-       text.append(txt);
-       about.append(text);
-    });
