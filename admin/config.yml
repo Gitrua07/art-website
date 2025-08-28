@@ -26,4 +26,4 @@ collections:
         file: "content/about.json"
         format: json
         fields:
-          - {label: "About Me", name: "about me", widget: "text"}
+          - {label: "About Me", name: "description", widget: "text"}
