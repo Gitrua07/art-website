@@ -2,7 +2,7 @@ import Home from './pages/Home'
 import Painting from './pages/Painting'
 import Header from './components/Header'
 import Footer from './components/Footer'
-import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import { BrowserRouter , Routes, Route } from 'react-router-dom'
 const App = () => {
   return (
     <BrowserRouter>
@@ -12,7 +12,7 @@ const App = () => {
         <Route path='painting/:id' element={<Painting/>}/>
       </Routes>
       <Footer/>
-    </BrowserRouter>
+    </BrowserRouter >
   )
 }
 
