@@ -27,6 +27,12 @@ a {
   padding: 50px;
   font-size: 50px;
   margin-bottom: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.pages{
+  font-size: 35px;
 }
 
 .paintings {
@@ -35,6 +41,10 @@ a {
   justify-content: space-evenly;
   /* background-color: blue; */
   padding: 50px 5px;
+}
+
+.painting{
+  margin-bottom: 20px;
 }
 
 .paintings-info {
@@ -50,7 +60,7 @@ a {
 }
 
 .home-image {
-  width: 570px;
+  max-width: 570px;
 
 }
 

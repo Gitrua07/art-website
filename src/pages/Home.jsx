@@ -13,7 +13,7 @@ const Home = () => {
                                 <Link to={link}>
                                     <img className='home-image' src={painting.img} alt={painting.alt} />
                                 </Link>
-                                <div className='title'>{painting.title}</div>
+                                <div className='title'><b>Assignment {painting.id}:</b> {painting.title}</div>
                                 <div className='year'>{painting.year}</div>
                             </div>)
                     })

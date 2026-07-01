@@ -11,7 +11,10 @@ const Painting = () => {
                 <img className='painting-image' src={img} alt={alt} />
             </div>
             <div className='full-text'>
-                {title}, {material}, {size}, {year}
+                <h2>Assignment {id.id}: {title} </h2>
+                <div><b>Year:</b> {year}</div>
+                <div><b>Material:</b> {material}</div>
+                <div><b>Size:</b> {size}</div>
             </div>
         </div>
     )
