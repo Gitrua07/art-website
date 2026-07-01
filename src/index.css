@@ -39,7 +39,6 @@ a {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  /* background-color: blue; */
   padding: 50px 5px;
 }
 
@@ -60,14 +59,15 @@ a {
 }
 
 .home-image {
+  width: 100%;
   max-width: 570px;
-
 }
 
 .painting-image {
+  width: 100%;
   max-width: 1000px;
   max-height: 1000px;
-
+  min-width: 300px;
 }
 
 .full-text{
