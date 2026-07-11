@@ -64,10 +64,10 @@ a {
 }
 
 .painting-image {
+  margin: 0px 5px;
   width: 100%;
-  max-width: 1000px;
-  max-height: 1000px;
-  min-width: 300px;
+  max-width: 30%;
+  max-height: 30%;
 }
 
 .full-text{
@@ -82,6 +82,32 @@ footer {
   margin-top: auto;
 }
 
+.full-image{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items:center;
+}
+
 Link {
   background-color: blue;
+}
+
+.popup-tab{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(0,0,0,0.85);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.popup-tab img {
+  max-width: 90vw;
+  max-height: 90vh;
+  object-fit: contain;
 }
