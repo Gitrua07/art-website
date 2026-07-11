@@ -4,7 +4,7 @@ import { useState } from 'react'
 
 const Painting = () => {
     const id = useParams()
-    const { title, year, material,images} = paintings.find(val => val.id == id.id)
+    const { title, date, material,images} = paintings.find(val => val.id == id.id)
     const [selectedImage, setSelectedImage] = useState()
 
     return (
@@ -16,7 +16,7 @@ const Painting = () => {
             </div>
             <div className='full-text'>
                 <h2>Assignment {id.id}: {title} </h2>
-                <div><b>Year:</b> {year}</div>
+                <div><b>Date:</b> {date}</div>
                 <div><b>Material:</b> {material}</div>
             </div>
 

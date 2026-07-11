@@ -2,14 +2,14 @@ const paintings = [
     {
         id: 1,
         title: "Exercise on Colour Theory",
-        year: 2026,
+        date: "July 13, 2026",
         material: 'Acrylic',
         size: '2000x2000',
-        img: '/img/a1/cool-colours.JPEG',
-        alt: 'Aaron Gordon dunking at the all-star game \nIllustrated with Procreate',
+        img: '/img/a1/personal-palette.JPEG',
+        alt: 'Shows the personal palette exercise for preview to A1',
         images: [
             {
-                src:'/img/a1/brush-explorations.JPEG',
+                src:'/img/a1/brush-exploration.JPEG',
                 alt: 'brush exploration exercise'
             },
             {
@@ -29,6 +29,14 @@ const paintings = [
                 alt: 'value into colour exercise'
             },
             {
+                src: '/img/a1/complementary-colour-swatches.JPEG',
+                alt: 'complementary swatches exercise'
+            },
+            {
+                src: '/img/a1/neutral-analogous-swatches.JPEG',
+                alt: 'neutral and analogous swatches exercise'
+            },
+            {
                 src: '/img/a1/chroma-swatches.JPEG',
                 alt: 'chroma swatches exercise'
             },
@@ -41,8 +49,8 @@ const paintings = [
                 alt: 'cool colours exercise'
             },
             {
-                src: '/img/a1/analogous-palette.JPG',
-                alt: 'analogous palette exercise'
+                src: '/img/a1/personal-palette.JPEG',
+                alt: 'personal palette exercise'
             }            
         ]
     }
