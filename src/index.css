@@ -31,7 +31,7 @@ a {
   justify-content: space-between;
 }
 
-.pages{
+.pages {
   font-size: 35px;
 }
 
@@ -42,7 +42,7 @@ a {
   padding: 50px 5px;
 }
 
-.painting{
+.painting {
   margin-bottom: 20px;
 }
 
@@ -70,9 +70,13 @@ a {
   max-height: 30%;
 }
 
-.full-text{
+.painting-image img{
+  width: 100%;
+}
+
+.full-text {
   margin: 2px;
-  padding: 2px;
+  padding: 100px;
   font-size: 25px;
 }
 
@@ -82,24 +86,24 @@ footer {
   margin-top: auto;
 }
 
-.full-image{
+.full-image {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  align-items:center;
+  align-items: center;
 }
 
 Link {
   background-color: blue;
 }
 
-.popup-tab{
+.popup-tab {
   position: fixed;
   top: 0;
   left: 0;
   width: 100vw;
   height: 100vh;
-  background-color: rgb(0,0,0,0.85);
+  background-color: rgb(0, 0, 0, 0.85);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -110,4 +114,16 @@ Link {
   max-width: 90vw;
   max-height: 90vh;
   object-fit: contain;
+}
+
+.rationale-text {
+  white-space: pre-line;
+  margin: 15px;
+  font-size: 24px;
+}
+
+.image-title{
+  font-size: 20px;
+  font-weight: bold;
+  color: rgba(100, 100, 100, 0.85);
 }
