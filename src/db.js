@@ -114,6 +114,55 @@ When taking into account all the successes and challenges, next time, I would ch
                 alt: 'Autobiographic Still-Life final art'
             }
         ]
+    },
+    {
+        id: 3,
+        title: "Abstract Painting",
+        date: "August 8, 2026",
+        material: 'Acrylic',
+        size: '',
+        img: '/img/a3/abstract-final.JPEG',
+        alt: 'Shows the Abstract paintings for preview to A3',
+        rationale: `This painting shows Eurydice and Orpheus from Greek Mythology. Eurydice is represented as a silhouette of a woman with a field of asphodels and is wrapped with a semi-transparent shawl. There is a staircase which is implied to lead to the outdoors by the light coming from the right out of frame. To abstract my painting, I applied metamorphosis by transforming Eurydice into a field of asphodels. I learned this technique by looking at Chema Mendez’ work; he is a surrealist artist who paints silhouettes with people who have sky environments as their bodies. I loved the mix of realism and abstraction and the ways his paintings conveyed a story through the human body. 
+
+Throughout my painting process, some challenges that I faced were the following:
+- Blending: I wanted to create a blended look to the overall painting as that falls into line with Chema Mendez’ work. Although in the end, due to time constraints and difficulties with mixing colour, the skin is only partially blended.
+- Unity: I struggled to unite the two figures such that they looked like they were in the same painting. To make the figures connected, I decided to paint an overlap of the garden onto Orpheus. 
+
+One success that I faced was painting the environment. I liked how the environment turned out. It looks intentional and leads the eye towards the two figures. If I could do anything different, I would have distorted Eurydice such that the garden painted onto Orpheus would connect together and make a ‘wave’ shape. 
+`,
+        images: [
+            {
+                title: 'Assignment Exercises',
+                src: '/img/a3/study-exercises.JPEG',
+                alt: 'value exercise step 1'
+            },
+            {
+                title: 'Abstract Sketches',
+                src: '/img/a3/abstract-sketches.JPEG',
+                alt: 'value exercise step 1'
+            },
+            {
+                title: 'My Inspiration: "One Last Hit" by Chema Mendez',
+                src: '/img/a3/inspiration.jpg',
+                alt: 'Autobiographic Still-Life final art'
+            },
+            {
+                title: 'Abstract Work-In-Progress 1',
+                src: '/img/a3/abstract-wip-1.JPEG',
+                alt: 'value exercise step 2'
+            },
+            {
+                title: 'Abstract Work-In-Progress 2',
+                src: '/img/a3/abstract-wip-2.JPEG',
+                alt: 'value exercise final result'
+            },
+            {
+                title: 'Abstract Final',
+                src: '/img/a3/abstract-final.JPEG',
+                alt: 'Autobiographic Still-Life final art'
+            }
+        ]
     }
 
 ]
