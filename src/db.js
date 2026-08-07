@@ -135,32 +135,32 @@ One success that I faced was painting the environment. I liked how the environme
             {
                 title: 'Assignment Exercises',
                 src: '/img/a3/study-exercises.JPEG',
-                alt: 'value exercise step 1'
+                alt: 'Assignment exercises'
             },
             {
                 title: 'Abstract Sketches',
                 src: '/img/a3/abstract-sketches.JPEG',
-                alt: 'value exercise step 1'
+                alt: 'my abstract sketches'
             },
             {
                 title: 'My Inspiration: "One Last Hit" by Chema Mendez',
                 src: '/img/a3/inspiration.jpg',
-                alt: 'Autobiographic Still-Life final art'
+                alt: 'a picture of a painting I used for inspiration'
             },
             {
                 title: 'Abstract Work-In-Progress 1',
                 src: '/img/a3/abstract-wip-1.JPEG',
-                alt: 'value exercise step 2'
+                alt: 'my abstract work in progress photo 1'
             },
             {
                 title: 'Abstract Work-In-Progress 2',
                 src: '/img/a3/abstract-wip-2.JPEG',
-                alt: 'value exercise final result'
+                alt: 'my abstract work in progress photo 2'
             },
             {
                 title: 'Abstract Final',
                 src: '/img/a3/abstract-final.JPEG',
-                alt: 'Autobiographic Still-Life final art'
+                alt: 'my abstract final art'
             }
         ]
     }
