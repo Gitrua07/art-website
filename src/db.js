@@ -163,6 +163,50 @@ One success that I faced was painting the environment. I liked how the environme
                 alt: 'my abstract final art'
             }
         ]
+    },
+      {
+        id: 4,
+        title: "Thematic Painting",
+        date: "August 22, 2026",
+        material: 'Acrylic',
+        size: '',
+        img: '/img/a4/a4-final.JPEG',
+        alt: 'Shows the Thematic painting for preview to A4',
+        rationale: `For my 11” x 14” painting, I wanted to convey the theme of relaxation which is shown through a landscape that I attribute to the feeling of coming home from a hard day at school and the feeling of being able to relax from academics. In order to convey this idea, I chose to (1) include fields of grass which have a curved gesture, (2) a mostly monochromatic colour scheme, and (3) a relaxed figure of myself who is wearing home clothes and is appearing to be half asleep. 
+
+Some challenges that I encountered and was able to resolve was the following: 
+    - Adding texture to greenery: I struggled with adding texture to the plants, while also making it look realistic with shadow and highlights. The way I resolved this is by trying to recreate the gesture of the plant, rather than the contour.
+    - Finding background reference: Before I began painting, I wanted to have a good photo reference of the environment. I had a lot of photos in my camera roll which interested me. However, I did not know what message/theme I wanted to convey. How I resolved this is by brainstorming ideas that emerged by looking at each photo and selecting the photo that I can realistically paint before the assignment due date. 
+Over the past few weeks, my opinions on my painting seldom changed. While painting the assignment, I wanted to make a thematic painting that emphasized the grass gesture. As well, I wanted there to be a focus on the texture of the greenery and also acknowledge the connection between myself and that location. Through these various assignments, I have grown artistically over the past few weeks because I am now more knowledgeable and purposeful about composition, colour scheme, and material textures. 
+
+`,
+        images: [
+            {
+                title: 'Thematic Sketches',
+                src: '/img/a4/sketches.JPEG',
+                alt: 'Thematic Sketches'
+            },
+            {
+                title: 'Colour Study',
+                src: '/img/a4/colour-study.JPEG',
+                alt: 'my colour study'
+            },
+            {
+                title: 'Thematic Work-In-Progress 1',
+                src: '/img/a4/a4-wip1.JPEG',
+                alt: 'my thematic work in progress photo 1'
+            },
+            {
+                title: 'Thematic Work-In-Progress 2',
+                src: '/img/a4/a4-wip2.JPEG',
+                alt: 'my thematic work in progress photo 2'
+            },
+            {
+                title: 'Thematic Final',
+                src: '/img/a4/a4-final.JPEG',
+                alt: 'my thematic final art'
+            }
+        ]
     }
 
 ]
